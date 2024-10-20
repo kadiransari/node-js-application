@@ -21,7 +21,7 @@ eksctl version
 
 #add access key and secret key
 aws configure
-export AWS_ACCESS_KEY_ID=###################
+export AWS_ACCESS_KEY_ID=#####################
 export AWS_SECRET_ACCESS_KEY=#############################
 #create-cluster
 eksctl create cluster --name kadir-cluster --version 1.30 --region ap-south-1 --node-type t3.medium --nodes 2 --nodes-min 1 --nodes-max 4 --managed
